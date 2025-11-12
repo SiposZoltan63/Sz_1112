@@ -23,7 +23,7 @@ namespace Sz_1112Dolgozat
         public MainWindow()
         {
             InitializeComponent();
-            
+            StartWindow.Navigate(new RegisterPage(this));
         }
     }
 }

@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="RegisterPage" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="RegisterButton" Content="Regisztrálás" HorizontalAlignment="Left" Margin="358,329,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="UserNameRegText" HorizontalAlignment="Center" Margin="0,113,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="VersionRegText" HorizontalAlignment="Left" Margin="331,260,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="PasswordRegText" HorizontalAlignment="Left" Margin="331,155,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="PasswordRegText2" HorizontalAlignment="Left" Margin="331,199,0,0" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Window>

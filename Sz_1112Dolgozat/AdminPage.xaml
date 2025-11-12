@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="AdminPage" Height="450" Width="800">
     <Grid>
-        <DataGrid/>
+        <DataGrid Name="FelhasznaloDatagrid" Margin="10,10,10,117"/>
+        <TextBox x:Name="DeleteBoxText" HorizontalAlignment="Left" Margin="323,371,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Delete_Button" Content="Törlés" HorizontalAlignment="Left" Margin="366,334,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
