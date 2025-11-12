@@ -27,7 +27,7 @@ namespace Sz_1112Dolgozat
 
             _mainWindow = mainWindow;
 
-            private void regButton_Click(object sender, RoutedEventArgs e)
+            private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             if (PasswordRegText.Password == PasswordRegText2.Password)
             {
