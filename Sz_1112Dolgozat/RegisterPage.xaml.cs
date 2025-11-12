@@ -54,5 +54,9 @@ namespace Sz_1112Dolgozat
 
     internal class _databaseStatements
     {
+        internal static object AddNewUser(object user)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

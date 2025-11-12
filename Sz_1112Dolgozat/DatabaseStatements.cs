@@ -12,7 +12,7 @@ namespace Sz_1112Dolgozat
 {
     internal class DatabaseStatements
     {
-        Connect conn = new Connect();
+        Connection conn = new Connection();
 
         public object AddNewUser(object user)
         {
@@ -88,6 +88,11 @@ namespace Sz_1112Dolgozat
             }
 
             return Convert.ToBase64String(salt);
+        }
+
+        internal object DeleteUser(object userId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

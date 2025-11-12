@@ -20,6 +20,7 @@ namespace Sz_1112Dolgozat
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();

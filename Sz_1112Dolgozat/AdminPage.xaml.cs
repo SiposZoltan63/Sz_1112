@@ -18,11 +18,13 @@ namespace Sz_1112Dolgozat
     {
         private readonly DatabaseStatements _databaseStatements = new DatabaseStatements();
         private readonly MainWindow _mainWindow;
+        private readonly MainWindow mainWindow;
+
         public AdminPage()
         {
             InitializeComponent();
             _mainWindow = mainWindow;
-            FelhasznaloDataGrid.ItemsSource = _databaseStatements.UserList();
+            FelhasznaloDatagrid.ItemsSource = _databaseStatements.UserList();
         }
 
         public AdminPage(MainWindow mainWindow)
@@ -38,7 +40,7 @@ namespace Sz_1112Dolgozat
                 Id = id,
             };
             MessageBox.Show(_databaseStatements.DeleteUser(userId).ToString());
-            FelhasznaloDataGrid.ItemsSource = _databaseStatements.UserList();
+            FelhasznaloDatagrid.ItemsSource = _databaseStatements.UserList();
         }
     }
 }
